@@ -10,6 +10,7 @@ format:
     theme: template/theme_perso.scss
     logo: template/logo_marbec.png
     footer: <https://github.com/ClaraLerebourg/formation-quarto>
+editor: visual
 ---
 
 # Pré-requis
@@ -17,8 +18,6 @@ format:
 ## Pré-requis
 
 Avoir installé quarto : https://quarto.org/docs/get-started/
-
-
 
 # Les bases
 
@@ -40,62 +39,71 @@ Avoir installé quarto : https://quarto.org/docs/get-started/
 
 ## Les bases - IDE Studio
 
-**1.  Créer un fichier quarto**
+**1. Créer un fichier quarto**
 
-    1.  File > New File > Quarto document
+```         
+1.  File > New File > Quarto document
 
-    2.  Renseigner : Titre / Auteur / HTML
+2.  Renseigner : Titre / Auteur / HTML
 
-    3.  Create
-
-## Les bases - IDE Studio
-
-**1.  Créer un fichier quarto**
-
-    1.  File > New File > Quarto document
-
-    2.  Renseigner : Titre / Auteur / HTML
-
-    3.  Create
-
-**2.  IDE Studio**
-![](images/quarto_computations_1.1.png)
+3.  Create
+```
 
 ## Les bases - IDE Studio
 
-**1.  Créer un fichier quarto**
+**1. Créer un fichier quarto**
 
-    1.  File > New File > Quarto document
+```         
+1.  File > New File > Quarto document
 
-    2.  Renseigner : Titre / Auteur / HTML
+2.  Renseigner : Titre / Auteur / HTML
 
-    3.  Create
+3.  Create
+```
 
-**2.  IDE Studio** ![](images/quarto_computations_1.2.png)
-
-## Les bases - IDE Studio
-
-**1.  Créer un fichier quarto**
-
-    1.  File > New File > Quarto document
-
-    2.  Renseigner : Titre / Auteur / HTML
-
-    3.  Create
-
-**2.  IDE Studio** ![](images/quarto_computations_1.3.png)
+**2. IDE Studio** ![](images/quarto_computations_1.1.png)
 
 ## Les bases - IDE Studio
 
-**1.  Créer un fichier quarto**
+**1. Créer un fichier quarto**
 
-    1.  File > New File > Quarto document
+```         
+1.  File > New File > Quarto document
 
-    2.  Renseigner : Titre / Auteur / HTML
+2.  Renseigner : Titre / Auteur / HTML
 
-    3.  Create
+3.  Create
+```
 
-**2.  IDE Studio** ![](images/quarto_computations_1.4.png)
+**2. IDE Studio** ![](images/quarto_computations_1.2.png)
+
+## Les bases - IDE Studio
+
+**1. Créer un fichier quarto**
+
+```         
+1.  File > New File > Quarto document
+
+2.  Renseigner : Titre / Auteur / HTML
+
+3.  Create
+```
+
+**2. IDE Studio** ![](images/quarto_computations_1.3.png)
+
+## Les bases - IDE Studio
+
+**1. Créer un fichier quarto**
+
+```         
+1.  File > New File > Quarto document
+
+2.  Renseigner : Titre / Auteur / HTML
+
+3.  Create
+```
+
+**2. IDE Studio** ![](images/quarto_computations_1.4.png)
 
 ## Les bases - IDE Studio
 
@@ -279,6 +287,7 @@ The average city mileage of the cars in our data is `r mean_cty` and the average
 ```
 
 # Rapport quarto
+
 ## Rapport quarto
 
 **Nous allons voir :**
@@ -349,7 +358,7 @@ Ecrire /ci dans le document quarto et choisir "Citation... Reference to a source
 
 ![](images/quarto_computations_8.png)
 
-## Rapport - Références 
+## Rapport - Références
 
 Ecrire /ci dans le document quarto et choisir "Citation... Reference to a source"
 
@@ -359,25 +368,27 @@ Ecrire /ci dans le document quarto et choisir "Citation... Reference to a source
 
 ## Créer un fichier
 
-**1.  Créer un fichier quarto**
+**1. Créer un fichier quarto**
 
-    1.  File > New File > Quarto document
+```         
+1.  File > New File > Quarto document
 
-    2.  Renseigner : Titre / Auteur / HTML
+2.  Renseigner : Titre / Auteur / HTML
 
-    3.  Create
-
-## Créer un fichier
-
-**2.  Créer des slides **
-
-Les diapositives sont définies par des titres de niveau 1 (#) pour un titre sur une page, ou de niveau 2  (##) :
+3.  Create
+```
 
 ## Créer un fichier
 
-**2.  Créer des slides **
+**2. Créer des slides**
 
-Les diapositives sont définies par des titres de niveau 1 (#) pour un titre sur une page, ou de niveau 2  (##) :
+Les diapositives sont définies par des titres de niveau 1 (#) pour un titre sur une page, ou de niveau 2 (##) :
+
+## Créer un fichier
+
+**2. Créer des slides**
+
+Les diapositives sont définies par des titres de niveau 1 (#) pour un titre sur une page, ou de niveau 2 (##) :
 
 ```{r}
 
@@ -401,10 +412,9 @@ format: revealjs
 ")
 ```
 
-
 ## Modifier présentation
 
-**Faire des listes - Incremental **
+**Faire des listes - Incremental**
 
 ```{r}
 
@@ -418,16 +428,14 @@ cat("
 ")
 ```
 
-::: {.incremental}
-
-- Eat spaghetti
-- Drink wine
-
+::: incremental
+-   Eat spaghetti
+-   Drink wine
 :::
 
 ## Modifier présentation
 
-**Faire des listes - Non incremental **
+**Faire des listes - Non incremental**
 
 ```{r}
 
@@ -441,16 +449,14 @@ cat("
 ")
 ```
 
-::: {.nonincremental}
-
-- Eat spaghetti
-- Drink wine
-
+::: nonincremental
+-   Eat spaghetti
+-   Drink wine
 :::
 
 ## Modifier présentation
 
-**Plusieurs colonnes **
+**Plusieurs colonnes**
 
 ```{r}
 
@@ -469,8 +475,7 @@ contents...
 ")
 ```
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="40%"}
 contents...
 :::
@@ -478,13 +483,11 @@ contents...
 ::: {.column width="60%"}
 contents...
 :::
-
-::::
-
+:::
 
 ## Modifier présentation
 
-**Insérer une image **
+**Insérer une image**
 
 ```{r}
 
@@ -494,4 +497,3 @@ cat("
 ```
 
 ![](images/quarto_computations_1.5.png)
-
