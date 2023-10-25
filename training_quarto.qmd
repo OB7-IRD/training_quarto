@@ -1,6 +1,4 @@
 ---
-title: "Formation R Quarto"
-authors: "Mathieu Depetris, Clara Lerebourg, Julien Lebranchu"
 format:
   revealjs: 
     slide-number: true
@@ -18,25 +16,3 @@ editor: visual
 ## Pré-requis
 
 Avoir installé quarto : https://quarto.org/docs/get-started/
-
-# Les bases
-
-## Les bases
-
-**Composition d'un script Quarto :**
-
--   IDE Studio
-
--   Entête YAML
-
--   Code chunks
-
--   Figures et tableaux
-
--   Texte
-
--   Rendu
-
-## Les bases - IDE Studio
-
-**1. Créer un fichier quarto**
