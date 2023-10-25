@@ -1,18 +1,11 @@
 ---
-format: 
-  revealjs:
-    target: "_blank"
-    scrollable: true
-    slide-number: c/t
-    chalkboard: true 
-    theme: template/theme_perso.scss
-    logo: template/logo_marbec.png
-    footer: <https://github.com/ClaraLerebourg/formation-quarto>
-editor: visual
+title: "thug"
 ---
 
-# Pré-requis
+## Quarto
 
-## Pré-requis
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
-Avoir installé quarto : https://quarto.org/docs/get-started/
+```{r}
+1 + 1
+```
