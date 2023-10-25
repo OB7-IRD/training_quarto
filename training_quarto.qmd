@@ -1,10 +1,10 @@
 ---
-format:
-  revealjs: 
-    slide-number: true
-    chalkboard: 
-      buttons: false
-    preview-links: auto
+format: 
+  revealjs:
+    target: "_blank"
+    scrollable: true
+    slide-number: c/t
+    chalkboard: true 
     theme: template/theme_perso.scss
     logo: template/logo_marbec.png
     footer: <https://github.com/ClaraLerebourg/formation-quarto>
